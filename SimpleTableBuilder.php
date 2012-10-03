@@ -1,7 +1,7 @@
 <?php
 /**
 * SimpleTableBuilder
-* - This class generates a simple HTML-Table from an array
+* - Simple Class to generate a simple HTML-Table from an array
 * @autor Sebastian Klüh (http://sklueh.de)
 */
 class SimpleTableBuilder
