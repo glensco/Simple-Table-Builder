@@ -10,10 +10,10 @@ class SimpleTableBuilder
 	private $aColumnHeader = array();
 	private $aTableData = array();
 	private $sTableName = "data_table";
-	private $sWidth = 'auto';
-	private $sHeight = 'auto';
-	private $sTitle = '';
-	private $iDefaultColumnWidth = '100';
+	private $sWidth = "auto";
+	private $sHeight = "auto";
+	private $sTitle = "";
+	private $sDefaultColumnWidth = "100";
 	
 	public function SimpleTableBuilder($sTableName = "")
 	{
@@ -57,7 +57,7 @@ class SimpleTableBuilder
 				$this->aColumnHeader[] = array('title' => key($mColumn), 'width' => $mColumn[key($mColumn)]);
 				continue;
 			}
-			$this->aColumnHeader[] = array('title' => $mColumn, 'width' => $this->iDefaultColumnWidth);
+			$this->aColumnHeader[] = array('title' => $mColumn, 'width' => $this->sDefaultColumnWidth);
 		}
 	}
 	
@@ -96,7 +96,7 @@ class SimpleTableBuilder
 	
 	public function setDefaultColumnWidth($iWidth)
 	{
-		$this->iDefaultColumnWidth = $iWidth;
+		$this->sDefaultColumnWidth = $iWidth;
 	}
 }
 ?>
