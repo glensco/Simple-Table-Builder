@@ -94,9 +94,9 @@ class SimpleTableBuilder
 		$this->aTableData = $aTableData;
 	}
 	
-	public function setDefaultColumnWidth($iWidth)
+	public function setDefaultColumnWidth($sWidth)
 	{
-		$this->sDefaultColumnWidth = $iWidth;
+		$this->sDefaultColumnWidth = $sWidth;
 	}
 }
 ?>
