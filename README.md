@@ -1,7 +1,7 @@
 Simple-Table-Builder
 ====================
 
-Simple Class to generate a simple HTML-Table from an array.
+Simple class to generate a simple HTML-Table from an array.
 
 For more information visit the following link: 
 
